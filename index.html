@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet" >
+</head>
+<body>
+    <div class="page_wrap"></div>
+        <header>
+            <h1>Is your BirthDay Palindrome???</h1>
+            <h2></h2>
+        </header>
+        <p class="content">
+            Enter your date of birth,then we'll tell you whether your 
+            birthday is Palindrome or not?
+        </p>
+        <img id="birthday_img" src="./images/cake.png" />
+        <div class="container_input">
+            <h2>We are going to Check your BirthDate in three format. i.e MM/DD/YYYY format, DD/MM/YYYY, MM/DD/YY format</h2>
+            <h3>Example:- BirthDay = 01/08/2021 then we will check - 08012021, 01082021 and 080121</h3>
+            <input id="input_birthday" type="date" placeholder="Enter your BirthDay" />
+            <button id="btn_check">Check</button>
+        </div>
+
+        
+        <div class="container_result">
+            <div class = "loader"></div>
+        </div>
+    </div>
+    <footer class='footer'>
+            <div class='footer_header'>Connect with Me</div>
+            <ul class='social_links list_non_bullet'>
+                <li class='list_item_inline'><a class='footer_link link' href="https://github.com/ultronjs"><img
+                            id="footer_tile_img" src="./images/github.png" /></a>
+                </li>
+                <li class='list_item_inline'><a class='footer_link link' href="www.linkedin.com/in/swapnil-bansal"><img
+                            id="footer_tile_img" src="./images/linkedIn.png" /></a></li>
+                <li class='list_item_inline'><a class='footer_link link' href="https://www.instagram.com/ul7ron/"><img
+                            id="footer_tile_img" src="./images/instagram.png" /></a></li>
+            </ul>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
